@@ -1,18 +1,15 @@
 # PatternMatcher
 
-(NOT RELEASED)
-
-
 ### HOW TO INSTALL
 
-instalation:
+instalation and import:
 
-```npm install pattern-matcher```
+```js
+const patternMatcher = require('./src/pattern-matcher');
 
-import:
-
-```import { match, type } from 'pattern-matcher';```
-
+const match = patternMatcher.match;
+const type = patternMatcher.type;
+```
 
 ### HOW TO USE
 
